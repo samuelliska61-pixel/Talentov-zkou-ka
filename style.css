@@ -1,0 +1,107 @@
+body{
+ background-color: black;  
+overflow: hidden;                                              
+
+}
+ul{
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    font-size: 180%;
+}
+li{
+    margin-right: 6%;
+}
+.head{
+    color: white;
+    text-decoration: none;
+}
+.head:hover{
+     cursor: pointer;
+    text-decoration: underline;
+    color: #ff6161;
+    transition: 100ms;
+}
+#Home{
+    color: #ff6161;
+}
+
+img{
+    width: 40%;
+    height: auto;
+    margin-top: -4%;
+    margin-left: 28%;
+
+}
+
+h1{
+    color: white;
+   font-size: 3vw; 
+    max-height: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 60%;
+}
+.Sam-text{
+    color: #ff6161;
+}
+p{
+    color: white;
+    font-size: 1vw;
+}
+.O_mě_btn{
+   
+   
+    display: inline-block;
+    width: 26%;          
+    min-width: 120px;    
+    max-width: 180px;    
+    padding: 17px 0;
+    background: #ff6161;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #ff6161;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+.O_mě_btn:hover{
+background-color: black;
+    color: #ff6161;
+ transition: 400ms;
+}
+.Dovednosti_btn{
+    display: inline-block;
+    width: 26%;          
+    min-width: 120px;    
+    max-width: 180px;    
+    padding: 17px 0;
+    background: #000000;
+    color: #ff6161;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #ff6161;
+    border-radius: 30px;
+    box-sizing: border-box;
+    margin-left: 2%;
+}
+
+.Dovednosti_btn:hover{
+    background-color: #ff6161;
+    color: white;
+ transition: 400ms;
+}
